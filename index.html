@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASE FILE: TERMINUS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="crt">
+    <div class="scanline"></div>
+
+    <div id="app-container">
+        <header>
+            <div id="sys-status">SYS.STATUS: ONLINE // ENCRYPTED</div>
+            <div id="audio-toggle" class="audio-controls" onclick="toggleAudio()">
+                <i id="audio-icon" class="fa-solid fa-volume-xmark"></i>
+                <span id="audio-status">BGM: OFF</span>
+            </div>
+            <div id="stage-display" class="stage-indicator" style="color: var(--neon-red); font-weight: bold;">STAGE: 00/20</div>
+        </header>
+
+        <div id="content-area">
+            </div>
+
+        <button id="hint-btn" onclick="showHint()" style="display:none;">[ REQUEST SYSTEM HINT ]</button>
+        <div id="hint-text"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
