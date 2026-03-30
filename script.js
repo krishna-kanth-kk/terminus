@@ -138,7 +138,7 @@ const stages = [
     {
         type: 'input',
         title: '07: THE CIPHER',
-        text: 'Terminus encrypts his files by writing words completely backwards. Decrypt this high-priority target file name:<br><br><span class="highlight" style="font-size:2rem; letter-spacing: 5px;">R E K C A H  E T N  A L I G I V</span>',
+        text: 'Terminus encrypts his files by writing words completely backwards. Decrypt this high-priority target file name:<br><br><span class="highlight" style="font-size:2rem; letter-spacing: 5px;">R E K C A H   E T N  A L I G I V</span>',
         correct: 'VIGILANTE HACKER',
         placeholder: 'TYPE DECRYPTED TEXT',
         hint: 'Read it from right to left.'
